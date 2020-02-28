@@ -19,4 +19,5 @@ esto lo ha hecho ALEX CASTILLO.
 
 -Hemos conseguido un botón que te lleva a la página anterior permitiendo avanzar hacia adelante y hacia atrás para que cargue más 
 rápido y te muestra en que pagina estas, en esto hemos trabajdo los dos, aportando ideas y juntandolas.
-Las fotos ya estan en un tamaño adecuado como una galeria. Realizado por Abdel.
+
+-Las fotos ya estan en un tamaño adecuado como una galeria. Realizado por Abdel.
