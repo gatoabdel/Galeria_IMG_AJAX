@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Galeria de AJAX</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+   
+   <div class="container">
+       
+       <h1>Búsqueda de Fotos de gatos</h1> <hr><br>
+       
+       Selecciona una categoria 
+       <select name="gatos" id="gatos">
+         <option value="None" id="none1" selected>None</option>
+          <!--
+          <option value="Boxes">Boxes</option>
+          <option value="Clothes">Clothes</option>
+          <option value="Hats">Hats</option>
+          <option value="Sinks">Sinks</option>
+          <option value="Space">Space</option>
+          <option value="Sunglases">Sunglases</option>
+          <option value="Ties">Ties</option>  -->      
+       </select>
+       
+       <select name="raza" id="raza">
+           <option value="None" id="none2" selected>None</option>
+       </select>
+       
+       <input type="text" name="limit" id="limit" placeholder="Introduzca un limite">
+       <button name="search" id="search" value="Search">Buscar</button> <!--button name="search1" id="search1" value="Search1">Buscar Por Raza</button--><br><br>
+       
+       
+      <div id="resultado">
+          
+      </div>
+      
+      <center>
+          <button value="anterior" id="ant">Anterior</button> <br>
+          <span id="pagAct"></span><br>
+          <button value="siguiente" id="sig">Siguiente</button>
+      </center>
+       
+   </div>
+   <script src="js/js.js"></script>
+   
+    
+</body>
+</html>
